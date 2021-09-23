@@ -1,7 +1,7 @@
 name: ha_firestore_scaffold
-description: A flutter package for firestore to display Sacffold with search Delegate
+description: Just like material Scaffold this Firestore Scaffold designed specifically for firestore which displays realtime paginated list view or gird view based on screensize. You can also add Search feature
 version: 0.0.1
-homepage:
+homepage: https://github.com/imhafeez/ha_firestore_scaffold.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

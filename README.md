@@ -11,29 +11,58 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+
+<!-- <p align="center">
+	<img src="https://raw.githubusercontent.com/imhafeez/ha_firestore_sacffold/master/assets/logo.png" height="80" alt="Focus Detector Logo" />
+</p> -->
+<p align="center">
+	<a href="https://pub.dev/packages/ha_firestore_sacffold"><img src="https://img.shields.io/pub/v/ha_firestore_sacffold.svg" alt="Pub.dev Badge"></a>
+	<!-- <a href="https://github.com/imhafeez/ha_firestore_sacffold/actions"><img src="https://github.com/imhafeez/ha_firestore_sacffold/workflows/build/badge.svg" alt="GitHub Build Badge"></a> -->
+	<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="MIT License Badge"></a>
+	<a href="https://github.com/imhafeez/ha_firestore_sacffold"><img src="https://img.shields.io/badge/platform-flutter-ff69b4.svg" alt="Flutter Platform Badge"></a>
+</p>
+
+# Firestore Scaffold 
+Just like material Scaffold this Firestore Scaffold designed specifically for firestore which displays realtime paginated list view or gird view based on screensize. You can also add Search feature based on query as well.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- 📱 Firestore Scaffold
+- 🔎 Search with query
+- 📈 Firestore Realtime pagination
+- 𝍌 List view style
+- ⌗ Grouped List View
+- 🌊 Waterflow Grid view style
 
+
+---
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add dependency
+```
+dependencies:
+  ha_firestore_sacffold: # latest version
+
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
 
 ```dart
-const like = 'sample';
+    
+```
+### Grouping (Sticky Headers)
+
+You can group your listing by passing ``` groupBy ``` field and your ``` header ``` widget in the ``` HAFirestoreRealtimePaginatedView ``` constructor.
+
+```dart
+
 ```
 
-## Additional information
+# Contributions
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Feel free to contribute to this project.
+
+If you find a bug or want a feature, but don't know how to fix/implement it, please fill an issue. If you fixed a bug or implemented a feature, please send a pull request.
+
+
