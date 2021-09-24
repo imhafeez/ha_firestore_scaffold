@@ -39,7 +39,7 @@ dependencies:
 
 ## Usage
 
-Use ``` HAFirestoreScafold ``` as a normal scaffold you get a realtime paginated result from firestore query.
+Use ``` HAFirestoreScafold ``` as a normal scaffold to get a realtime paginated result from firestore query.
 
 ```dart
     HAFirestoreScafold(
