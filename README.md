@@ -63,7 +63,7 @@ Use ``` HAFirestoreScafold ``` as a normal scaffold to get a realtime paginated 
 ```
 
 ### Search 
-You can has a search in the scaffold as well by using ``` HAFirestoreSearch ``` as a ``` searchDelegate ``` where ``` searchField ``` will be a search field with array of strings
+You can have a search in the scaffold as well by using ``` HAFirestoreSearch ``` as a ``` searchDelegate ``` where ``` searchField ``` will be a document field with array of strings
 
 ```dart
   HAFirestoreSearch(
