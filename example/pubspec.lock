@@ -134,14 +134,14 @@ packages:
       name: ha_firestore_realtime_paginate
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.1"
+    version: "0.0.2"
   ha_firestore_scaffold:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.2"
   intl:
     dependency: transitive
     description:

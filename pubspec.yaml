@@ -1,7 +1,7 @@
 name: ha_firestore_scaffold
 description: Just like material Scaffold this Firestore Scaffold designed specifically for firestore which displays realtime paginated list view or gird view based on screensize. You can also add Search feature
-version: 0.0.1
-homepage: https://github.com/imhafeez/ha_firestore_scaffold.git
+version: 0.0.2
+homepage: https://github.com/imhafeez/ha_firestore_scaffold
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cloud_firestore: "^2.5.3"
-  ha_firestore_realtime_paginate: ^0.0.1
+  ha_firestore_realtime_paginate: ^0.0.2
 
 dev_dependencies:
   flutter_test:

@@ -39,10 +39,10 @@ dependencies:
 
 ## Usage
 
-Use ``` HAFirestoreScafold ``` as a normal scaffold to get a realtime paginated result from firestore query.
+Use ``` HAFirestoreScaffold ``` as a normal scaffold to get a realtime paginated result from firestore query.
 
 ```dart
-    HAFirestoreScafold(
+    HAFirestoreScaffold(
       title: widget.title,
       query: FirebaseFirestore.instance
           .collection("users")
@@ -84,10 +84,10 @@ You can have a search in the scaffold as well by using ``` HAFirestoreSearch ```
 ```
 ### Grouping (Sticky Headers)
 
-You can group your listing by passing ``` groupBy ``` field and your ``` header ``` widget in the ``` HAFirestoreScafold ``` constructor.
+You can group your listing by passing ``` groupBy ``` field and your ``` header ``` widget in the ``` HAFirestoreScaffold ``` constructor.
 
 ```dart
-  HAFirestoreScafold(
+  HAFirestoreScaffold(
     ...
     groupBy: "addedDate",
     header: (groupFieldValue) {
