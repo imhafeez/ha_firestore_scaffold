@@ -5,13 +5,13 @@
 
 
 <!-- <p align="center">
-	<img src="https://raw.githubusercontent.com/imhafeez/ha_firestore_sacffold/master/assets/logo.png" height="80" alt="Focus Detector Logo" />
+	<img src="https://raw.githubusercontent.com/imhafeez/ha_firestore_scaffold/master/assets/logo.png" height="80" alt="Focus Detector Logo" />
 </p> -->
 <p align="center">
-	<a href="https://pub.dev/packages/ha_firestore_sacffold"><img src="https://img.shields.io/pub/v/ha_firestore_sacffold.svg" alt="Pub.dev Badge"></a>
-	<!-- <a href="https://github.com/imhafeez/ha_firestore_sacffold/actions"><img src="https://github.com/imhafeez/ha_firestore_sacffold/workflows/build/badge.svg" alt="GitHub Build Badge"></a> -->
+	<a href="https://pub.dev/packages/ha_firestore_scaffold"><img src="https://img.shields.io/pub/v/ha_firestore_scaffold.svg" alt="Pub.dev Badge"></a>
+	<!-- <a href="https://github.com/imhafeez/ha_firestore_scaffold/actions"><img src="https://github.com/imhafeez/ha_firestore_scaffold/workflows/build/badge.svg" alt="GitHub Build Badge"></a> -->
 	<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="MIT License Badge"></a>
-	<a href="https://github.com/imhafeez/ha_firestore_sacffold"><img src="https://img.shields.io/badge/platform-flutter-ff69b4.svg" alt="Flutter Platform Badge"></a>
+	<a href="https://github.com/imhafeez/ha_firestore_scaffold"><img src="https://img.shields.io/badge/platform-flutter-ff69b4.svg" alt="Flutter Platform Badge"></a>
 </p>
 
 # Firestore Scaffold 
@@ -33,12 +33,13 @@ Just like material Scaffold this Firestore Scaffold designed specifically for fi
 Add dependency
 ```
 dependencies:
-  ha_firestore_sacffold: # latest version
+  ha_firestore_scaffold: # latest version
 
 ```
 
 ## Usage
 
+Use ``` HAFirestoreScafold ``` as a normal scaffold you get a realtime paginated result from firestore query.
 
 ```dart
     HAFirestoreScafold(

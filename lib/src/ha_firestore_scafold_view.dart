@@ -1,6 +1,6 @@
 part of ha_firestore_scaffold;
 
-class HAFirestoreScafold extends StatefulWidget {
+class HAFirestoreScaffold extends StatefulWidget {
   final String? title;
   final Query? query;
   final int Function(DeviceScreenType)? limit;
@@ -17,7 +17,7 @@ class HAFirestoreScafold extends StatefulWidget {
   final EdgeInsets scrollPadding;
   final Widget? leading;
   final Widget? endDrawer;
-  const HAFirestoreScafold(
+  const HAFirestoreScaffold(
       {Key? key,
       this.title,
       this.query,
@@ -37,10 +37,10 @@ class HAFirestoreScafold extends StatefulWidget {
       : super(key: key);
 
   @override
-  _HAFirestoreScafoldState createState() => _HAFirestoreScafoldState();
+  _HAFirestoreScaffoldState createState() => _HAFirestoreScaffoldState();
 }
 
-class _HAFirestoreScafoldState extends State<HAFirestoreScafold> {
+class _HAFirestoreScaffoldState extends State<HAFirestoreScaffold> {
   GlobalKey<ScaffoldState> scafoldKey = GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {

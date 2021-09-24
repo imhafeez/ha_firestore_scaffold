@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return HAFirestoreScafold(
+    return HAFirestoreScaffold(
       title: widget.title,
       query: FirebaseFirestore.instance
           .collection("users")
