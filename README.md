@@ -41,14 +41,62 @@ dependencies:
 
 
 ```dart
-    
+    HAFirestoreScafold(
+      title: widget.title,
+      query: FirebaseFirestore.instance
+          .collection("users")
+          .orderBy("addedDate", descending: true),
+      limit: (deviceType) {
+        return 50;
+      },
+      itembuilder: (context, snapshot) {
+        Map<String, dynamic> data = snapshot.data() as Map<String, dynamic>;
+        return ListTile(
+          title: Text(data['name'] ?? "no name"),
+        );
+      },
+      emptyWidget: const Center(
+        child: Text("no data found"),
+      ),
+    )
+```
+
+### Search 
+You can has a search in the scaffold as well by using ``` HAFirestoreSearch ``` as a ``` searchDelegate ``` where ``` searchField ``` will be a search field with array of strings
+
+```dart
+  HAFirestoreSearch(
+    firestoreQuery: FirebaseFirestore.instance
+        .collection("users")
+        .orderBy("addedDate", descending: true),
+    searchField: 'keywords',
+    builder: (context, snapshot) {
+      Map<String, dynamic> data = snapshot.data() as Map<String, dynamic>;
+      return ListTile(
+        title: Text(data['name'] ?? "no name"),
+      );
+    },
+    emptyWidget: const Center(
+      child: Text("no search data found"),
+    ),
+  )
 ```
 ### Grouping (Sticky Headers)
 
-You can group your listing by passing ``` groupBy ``` field and your ``` header ``` widget in the ``` HAFirestoreRealtimePaginatedView ``` constructor.
+You can group your listing by passing ``` groupBy ``` field and your ``` header ``` widget in the ``` HAFirestoreScafold ``` constructor.
 
 ```dart
-
+  HAFirestoreScafold(
+    ...
+    groupBy: "addedDate",
+    header: (groupFieldValue) {
+      return Container(
+        color: Colors.white,
+        child: Text("$groupFieldValue"),
+      );
+    },
+    ...
+  )
 ```
 
 ---
