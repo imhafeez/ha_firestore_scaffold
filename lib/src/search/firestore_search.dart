@@ -1,4 +1,7 @@
-part of ha_firestore_scaffold;
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'package:ha_firestore_realtime_paginate/ha_firestore_realtime_paginate.dart';
+import 'package:ha_firestore_scaffold/src/search/search_model.dart';
 
 class HAFirestoreSearch extends SearchDelegate<String?> {
   Query? firestoreQuery;

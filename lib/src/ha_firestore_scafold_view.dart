@@ -1,4 +1,8 @@
-part of ha_firestore_scaffold;
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'package:ha_firestore_realtime_paginate/ha_firestore_realtime_paginate.dart';
+
+import 'layout/ui_utils.dart';
 
 class HAFirestoreScaffold extends StatefulWidget {
   final String? title;

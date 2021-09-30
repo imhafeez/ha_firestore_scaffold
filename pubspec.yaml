@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cloud_firestore: "^2.5.3"
-  ha_firestore_realtime_paginate: ^0.0.2
+  ha_firestore_realtime_paginate: ^0.0.3
 
 dev_dependencies:
   flutter_test:
